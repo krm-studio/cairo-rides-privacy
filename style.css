@@ -1,0 +1,6 @@
+:root{--ink:#1E1A15;--cream:#FFF8E6;--card:#FFFDF6;--line:#E8DCBC;--taxi:#F5B921;--muted:#5C5346}
+@media (prefers-color-scheme:dark){:root{--ink:#F4EBD8;--cream:#1A1714;--card:#24201B;--line:#3A332A;--muted:#BDB09A}}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.8 "Cairo",Tahoma,sans-serif}
+header{background:var(--taxi);color:#1E1A15;padding:20px 16px}header h1{margin:0;font-size:26px}header p{margin:0}
+main{max-width:760px;margin:0 auto;padding:16px}section{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px 20px;margin:16px 0}
+h2{font-size:20px;margin:0 0 8px}nav a{margin-inline-end:16px;color:inherit}a{color:inherit}.en{direction:ltr;text-align:left}small{color:var(--muted)}
